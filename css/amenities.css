@@ -1,0 +1,33 @@
+header {
+    background-color: #808000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    color: white;
+}
+header h1 {
+    font-size: 20px;
+}
+
+li.active {
+    background-color: rgb(255, 77, 0);
+    padding: var(--gap_small) var(--gap_med);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: var(--gap_med);
+}
+li:hover {
+    text-decoration: underline;
+}
+li {
+    gap: 10px;
+    color: white;
+}
+
+header a {
+    color: white;
+}
