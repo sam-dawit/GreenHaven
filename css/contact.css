@@ -102,3 +102,32 @@ form hr {
 .contact a:hover {
     text-decoration: underline;
 }
+.map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.cont {
+    position: absolute;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+.logo span {
+    font-weight: normal;
+    font-size: smaller;
+}
+.logo1 {
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+.logo1 span {
+    font-weight: normal;
+    font-size: smaller;
+}

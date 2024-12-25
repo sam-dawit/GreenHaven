@@ -7,6 +7,12 @@ const services = [
                 description:
                     "Providing in-home assistance for daily living activities with care and compassion.",
                 image: "./image/pic-01.jpeg",
+                services: {
+                    title: "Personal Care",
+                    description:
+                        "Providing in-home assistance for daily living activities with care and compassion.",
+                    image: "./image/pic-01.jpeg",
+                },
             },
             {
                 title: "Personal Hygiene Assistance",
@@ -250,9 +256,12 @@ function renderCards(category = null) {
             card.innerHTML = `
                 <img src="${detail.image}" alt="${detail.title}" style="width:100%;height:150px;">
                 <div class="pad">
-                <h3>${detail.title}</h3>
-                <p>${detail.description}</p>
-                <div class="button"><button type="button">Contact</button></div> </div>`;
+                    <h3>${detail.title}</h3>
+                    <p>${detail.description}</p>
+                    <div class="button">
+                        <a href="/html/services.html?title=${detail.title}">Contact</a>
+                    </div>
+                </div>`;
 
             cardContainer.appendChild(card);
         });

@@ -1,0 +1,132 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="/css/services.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <h1>GreenHaven Home Care</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/home.html">Home</a>
+                    </li>
+                    <li><a href="/html/about.html">About Us</a></li>
+                    <li class="active">
+                        <a href="/html/services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="/html/amenities.html">Amenities</a>
+                    </li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="in-home">
+            <h1>In-Home Care</h1>
+            <div class="box1">
+                <img src="/image/home.png" alt="" />
+                <div class="text">
+                    <h3>
+                        Our in-home care services provide personalized
+                        assistance with daily activities, ensuring comfort and
+                        independence in the familiar surroundings of home.
+                    </h3>
+                    <div class="list">
+                        <h6>
+                            Personalized care plans tailored to individual needs
+                        </h6>
+                        <h6>
+                            24/7 availability and support
+                        </h6>
+                        <h6>
+                            Experienced and compassionate caregivers
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <h1>Medical Services</h1>
+            <div class="box2">
+                <img src="/image/home.png" alt="" />
+                <div class="text">
+                    <h3>
+                        Our medical services ensure that you receive the
+                        professional care you need, right at home. We offer a
+                        range of medical treatments and monitoring.
+                    </h3>
+                    <div class="list">
+                        <h6>
+                            Home health assessments and monitoring
+                        </h6>
+                        <h6>
+                            Medication management and delivery
+                        </h6>
+                        <h6>
+                            Coordination with your primary healthcare provider
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <h1>Therapy Services</h1>
+            <div class="box3">
+                <img src="/image/home.png" alt="" />
+                <div class="text">
+                    <h3>
+                        Our therapy services are designed to help you regain
+                        strength, improve mobility, and enhance your quality of
+                        life with personalized therapy sessions.
+                    </h3>
+                    <div class="list">
+                        <h6>
+                            Physical, occupational, and speech therapy
+                        </h6>
+                        <h6>
+                            Customized therapy plans for individual goals
+                        </h6>
+                        <h6>
+                            One-on-one sessions with licensed therapists
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-section contact-us">
+                <h3>Contact Us</h3>
+                <p>
+                    123 Care Street, Wellness City<br />
+                    Phone: (123) 456-7890
+                </p>
+            </div>
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-icons">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-instagram"></i>
+            </div>
+        </footer>
+
+        <script>
+            function getTitle() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const title = urlParams.get("title");
+                console.log(title);
+            }
+            getTitle();
+        </script>
+    </body>
+</html>

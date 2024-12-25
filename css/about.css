@@ -1,3 +1,35 @@
+:root {
+    --primary: #808000;
+    --secondary: #6f6f6f;
+    --bg: #ffffff;
+    --gap_small: 8px;
+    --gap_med: 12px;
+    --gap_large: 32px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary: #808000;
+    --secondary: #6f6f6f;
+    --bg: #ffffff;
+    --gap_small: 8px;
+    --gap_med: 12px;
+    --gap_large: 32px;
+    --padding_x: 50px;
+    --padding_y: 10px;
+}
+
+/* navigation css */
 header {
     background-color: #808000;
     display: flex;
@@ -5,6 +37,7 @@ header {
     align-items: center;
     height: 75px;
     color: white;
+    padding: 0 var(--padding_x);
 }
 header h1 {
     font-size: 20px;
@@ -17,6 +50,8 @@ li.active {
 
 ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     gap: var(--gap_med);
 }
@@ -28,6 +63,108 @@ li {
     color: white;
 }
 
-header a {
+a {
     color: white;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 50px;
+}
+.text h2 {
+    font-size: large;
+    font-weight: normal;
+}
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.top p {
+    color: #6f6f6f;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+/* .texts h4 {
+    color: #878787;
+}
+.texts p {
+    color: #b9b9b9;
+} */
+img {
+    height: 250px;
+    width: 300px;
+}
+.box {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #d2d2d2;
+}
+.box p {
+    color: #8a8a8a;
+}
+.people {
+    padding: 20px 20px;
+}
+.people h1 {
+    font-weight: normal;
+}
+.footer {
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.review h1 {
+    font-weight: normal;
+}
+.review h4 {
+    font-weight: normal;
+}
+
+.one {
+    background-color: #c3c3c3;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    height: 50px;
+}
+.one p {
+    position: relative;
+    top: 35px;
+}
+.two {
+    background-color: #c3c3c3;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    height: 50px;
+}
+.two p {
+    position: relative;
+    top: 35px;
 }
