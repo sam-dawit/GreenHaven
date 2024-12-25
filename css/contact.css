@@ -68,8 +68,8 @@ a {
 }
 .section {
     display: flex;
-    align-items: center;
     background-color: #808000;
+    padding: 50px;
 }
 .form {
     padding: 50px 50px;
@@ -104,17 +104,19 @@ form hr {
 }
 .map {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    height: 500px;
+    width: 100%;
 }
 .cont {
-    position: absolute;
+    position: relative;
+    border: 1px solid black;
 }
 .logo {
     position: absolute;
     top: 0;
-    background-color: #ffffff;
+    background-color: #ffffffb2;
     padding: 20px 40px;
 }
 .logo span {
