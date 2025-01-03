@@ -26,7 +26,6 @@
     margin-bottom: 3rem;
 }
 
-/* Amenities Grid Section */
 .amenities-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -63,7 +62,6 @@
     line-height: 1.6;
 }
 
-/* Additional Features Section */
 .additional-features {
     background: #f9f9f9;
     padding: 3rem;
@@ -100,7 +98,6 @@
     color: #444;
 }
 
-/* CTA Section */
 .cta-section {
     text-align: center;
     background: #4caf50;
@@ -135,7 +132,6 @@
     background: #f0f0f0;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .amenities-main > h1 {
         font-size: 2rem;
@@ -158,7 +154,6 @@
     }
 }
 
-/* Animation for cards */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -174,7 +169,6 @@
     animation: fadeIn 0.5s ease-out forwards;
 }
 
-/* Stagger the animation for each card */
 .amenity-card:nth-child(1) {
     animation-delay: 0.1s;
 }

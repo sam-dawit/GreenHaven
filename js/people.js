@@ -38,41 +38,4 @@ function renderPeople() {
     container.appendChild(teamList);
 }
 
-// Add CSS for the layout
-const style = document.createElement("style");
-style.textContent = `
-    .team-list {
-        display: flex;
-        justify-content: space-between;
-        justify-content: center;
-        align-items: center;
-        gap: 25px;
-        margin:10px 0;
-        padding: 10px 10px;
-        background-color: grey;
-    }
-    .team-member {
-        text-align: center;
-        width: 150px;
-    }
-    .team-member img {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-bottom: 8px;
-        background-color:white;
-    }
-    .team-member h2 {
-        font-size: 1rem;
-        margin: 8px 4px;
-    }
-    .team-member p {
-        font-size: 1rem;
-        
-    }
-`;
-document.head.appendChild(style);
-
-// Render team members
 renderPeople();

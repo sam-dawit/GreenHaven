@@ -35,7 +35,7 @@ const services = [
         ],
     },
     {
-        category: "Companion",
+        category: "Companions",
         details: [
             {
                 title: "Elderly Companion Services",

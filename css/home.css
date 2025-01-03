@@ -50,13 +50,19 @@ main {
     background-size: cover;
     background-position: center;
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 main h1 {
     color: white;
+    font-size: 3rem;
 }
 main h5 {
     margin: 20px 0px;
     color: white;
+    font-size: 1.5rem;
 }
 main button {
     background-color: rgb(255, 77, 0);
@@ -65,7 +71,13 @@ main button {
     border: none;
     padding: 15px 15px;
 }
-
+main button:hover {
+    transition: ease-in-out;
+    cursor: pointer;
+    scale: 1.05;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
 .hero {
     display: flex;
     flex: 4;
@@ -109,6 +121,10 @@ main button {
 section {
     padding: 50px 50px;
 }
+section h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
 .button button {
     background-color: var(--primary);
     padding: 7px 17px;
@@ -126,6 +142,10 @@ section {
 }
 .pad {
     padding: 10px 20px;
+}
+.pad p {
+    padding: 10px 0px;
+    text-align: justify;
 }
 .contain .box {
     background-color: #c9c5c5;
