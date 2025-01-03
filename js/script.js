@@ -2,7 +2,7 @@ import services from "./services.js";
 function renderCards(category = null) {
     const cardContainer = document.getElementById("contain");
     cardContainer.innerHTML = "";
-
+    console.log("this is the category", category);
     // Filter to show only the first two categories on initial render if no category is selected
     const filteredServices = category
         ? services.filter((element) => element.category === category)

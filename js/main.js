@@ -52,7 +52,7 @@ export const services = [
             {
                 title: "Meal Companionship",
                 description:
-                    "Providing companionship during meals to make dining a more enjoyable experience.",
+                    "Providing companionship during meals to make dining more enjoyable experience.",
                 image: "pic-04",
             },
         ],
