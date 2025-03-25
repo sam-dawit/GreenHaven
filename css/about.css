@@ -42,27 +42,27 @@ header h1 {
     font-size: 20px;
 }
 
-li.active {
+header li.active {
     background-color: rgb(255, 77, 0);
     padding: var(--gap_small) var(--gap_med);
 }
 
-ul {
+header ul {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     gap: var(--gap_med);
 }
-li:hover {
+header li:hover {
     text-decoration: underline;
 }
-li {
+header li {
     gap: 10px;
     color: white;
 }
 
-a {
+header a {
     color: white;
 }
 .text {
@@ -114,6 +114,12 @@ a {
 .texts p {
     color: var(--secondary);
     line-height: 1.6;
+}
+.texts li {
+    color: black;
+}
+.texts ul {
+    flex-direction: column;
 }
 .bottom img {
     height: 350px;

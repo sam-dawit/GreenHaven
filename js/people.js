@@ -1,8 +1,8 @@
 const people = [
     {
         image: "https://cdn-icons-png.flaticon.com/512/2815/2815428.png",
-        person: "Sarah Johnson",
-        Role: "Director of Operations",
+        person: "Tarike T. Muche, LPN",
+        Role: "Owner of ARCHANGELS COMFORT CARE",
     },
     {
         image: "https://cdn-icons-png.flaticon.com/512/2815/2815428.png",

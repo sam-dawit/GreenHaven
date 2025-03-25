@@ -58,7 +58,7 @@ const services = [
             {
                 title: "Meal Companionship",
                 description:
-                    "Providing companionship during meals to make dining a more enjoyable experience.",
+                    "Providing companionship during meals to make dining enjoyable experience.",
                 image: "./image/pic-04.jpeg",
             },
         ],
