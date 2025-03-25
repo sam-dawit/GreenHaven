@@ -32,22 +32,57 @@
             <h1>Glad we work</h1>
             <div class="section">
                 <div class="form">
-                    <h1>//Contact Us if you are interested.</h1>
-                    <form>
-                        <input required type="text" placeholder="Your Name" />
-                        <input required type="text" placeholder="Your Email" />
+                    <h2>Contact Us</h2>
+                    <form id="contactForm">
+                        <h4>Name</h4>
                         <input
                             required
                             type="text"
+                            name="name"
+                            placeholder="Enter Your Name"
+                        />
+
+                        <h4>Email Address</h4>
+                        <input
+                            required
+                            type="email"
+                            name="email"
+                            placeholder="Enter Your Email Address"
+                        />
+
+                        <h4>Phone</h4>
+                        <input
+                            required
+                            type="tel"
+                            name="phone"
+                            placeholder="Enter Your Phone Number"
+                        />
+
+                        <h4>Service You Need</h4>
+                        <input
+                            required
+                            type="text"
+                            name="service"
                             placeholder="What Service Do You Need"
                             id="title"
                         />
+
+                        <h4>Your Message</h4>
                         <input
                             required
                             type="text"
+                            name="message"
                             placeholder="Your Message"
                         />
-                        <hr />
+
+                        <div class="form-status">
+                            <div
+                                id="loadingSpinner"
+                                class="loading-spinner hidden"
+                            ></div>
+                            <p id="statusMessage" class="status-message"></p>
+                        </div>
+
                         <input type="submit" value="Submit" />
                     </form>
                 </div>
@@ -57,6 +92,17 @@
                         <a href="mailto:archangelscomfortcare@gmail.com"
                             >archangelscomfortcare@gmail.com</a
                         >
+
+                        <h1>
+                            For more information, Click this
+
+                            <a
+                                href="../image/ANGEL COMFORT CARE ADULT FAMILY HOME.docx.pdf"
+                                download="ANGEL COMFORT CARE ADULT FAMILY HOME.docx.pdf"
+                            >
+                                Document
+                            </a>
+                        </h1>
                     </div>
                     <div class="bottom">
                         <h1>Connect With Us</h1>
@@ -81,26 +127,6 @@
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.3264871140937!2d-122.21043892632875!3d47.410738394670545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905c38418ea69b%3A0xfcbdc66098474237!2s9821%20S%20213th%20Pl%2C%20Kent%2C%20WA%2098031!5e1!3m2!1sam!2sus!4v1735066570726!5m2!1sam!2sus"
-                    width="600"
-                    height="450"
-                    style="border: 0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-            </div>
-            <div class="cont">
-                <div class="logo">
-                    <h1>Location</h1>
-                    <h2>
-                        Visit Us:
-                        <span>
-                            at 9821 S 213th Pl, Kent, WA 98031
-                        </span>
-                    </h2>
-                </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.8814973260005!2d-122.3518523235769!3d47.62050988701686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490151f4ed5b7f9%3A0xdb2ba8689ed0920d!2sSpace%20Needle!5e1!3m2!1sam!2sus!4v1735067293446!5m2!1sam!2sus"
                     width="600"
                     height="450"
                     style="border: 0;"
